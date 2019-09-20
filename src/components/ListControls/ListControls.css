@@ -1,0 +1,80 @@
+.list-controls {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+.sort-toggle,
+.select-wrapper {
+    display: inline-block;
+    margin: 0 0 0 0.5em;
+}
+
+.select-wrapper .button {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    border: none;
+}
+
+.select-wrapper .icon {
+    position: absolute;
+    top: 0;
+    right: 0.8em;
+    height: 100%;
+}
+
+.select-wrapper select {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    padding: 0 2.5em 0 0.5625em;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: transparent;
+    border: 2px solid var(--color-blue);
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    z-index: 1;
+}
+
+.sort-toggle label {
+    position: relative;
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.sort-toggle .label-text {
+    display: inline-block;
+    min-width: 108px;
+    text-align: left;
+}
+
+.sort-toggle svg {
+    transition: transform 0.5s ease-out;
+}
+
+.sort-toggle input {
+    position: absolute;
+}
+
+.sort-toggle input:disabled {
+    opacity: 0;
+}
+
+.select-wrapper select:focus,
+.select-wrapper select:active,
+.sort-toggle input:focus + label,
+.sort-toggle input:active + label {
+    outline: 2px solid orange;
+}
+
+.sort-toggle input:checked + label svg {
+    transform: rotate(180deg);
+}

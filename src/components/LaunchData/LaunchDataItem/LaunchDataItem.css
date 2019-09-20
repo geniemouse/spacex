@@ -1,0 +1,25 @@
+.flight-number {
+    grid-area: flight_number;
+    font-size: 2.5rem;
+}
+
+.mission-name {
+    grid-area: mission_name;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.rocket-name {
+    grid-area: rocket_name;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.launch-date {
+    grid-area: launch_date;
+    margin: 0;
+    font-weight: 400;
+    text-align: right;
+}

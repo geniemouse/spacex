@@ -1,0 +1,11 @@
+node_modules/
+
+build/
+
+*.log
+logs/
+
+*.tmp
+.tmp/
+
+.DS_Store

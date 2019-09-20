@@ -1,0 +1,51 @@
+.launch-data,
+.data-message {
+    position: relative;
+    grid-row: 2;
+    grid-column: 1 / -1;
+    z-index: 1;
+}
+
+.data-message {
+    align-self: self-start;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.launch-data {
+    margin: 0;
+    padding: 0.25em 0 0;
+    list-style: none;
+}
+
+/* This could easily be part of the LaunchDataItem component,
+but as not using SCSS/styled-components, I'm happy with using the cascade */
+.launch-data > li {
+    display: grid;
+    grid-template-columns: minmax(auto, 5.25em) 1fr 1fr;
+    grid-template-areas:
+        "flight_number mission_name launch_date"
+        "flight_number mission_name rocket_name";
+    grid-gap: 0.4375em 1em;
+    align-items: center;
+
+    margin: 0.5625em 0;
+    padding: 0.6875em 0.875em 0.6875em 2.125em;
+    font-weight: 500;
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125em 0.25em var(--color-shadow);
+}
+
+@media screen and (min-width: 48.625em) {
+    .launch-data,
+    .data-message {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .launch-data {
+        padding-left: 3.625em;
+    }
+}
