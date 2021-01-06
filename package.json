@@ -15,16 +15,12 @@
     "axios": "^0.21.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "terser-webpack-plugin": "^1.4.2"
+    "react-scripts": "^3.4.4"
   },
   "devDependencies": {
     "@geniemouse/prettier-config": "^1.1.4",
     "gh-pages": "^2.1.1",
     "prettier": "^1.17.1"
-  },
-  "resolutions": {
-    "terser-webpack-plugin": "^1.4.2"
   },
   "homepage": "http://geniemouse.github.io/spacex",
   "eslintConfig": {
