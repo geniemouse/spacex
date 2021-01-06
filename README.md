@@ -1,34 +1,34 @@
-# SpaceX
+# SpaceX <!-- omit in toc -->
 
 A small React app that loads SpaceX launch data.
 
-<!-- MarkdownTOC -->
+<small>(Project demo created in September 2019.)</small>
 
-1. [Rationale](#rationale)
-    1. [Demo caveats](#demo-caveats)
-    1. [Icons](#icons)
-    1. [`list` or `table`?](#list-or-table)
-    1. [`img srcset` over `picture` element](#img-srcset-over-picture-element)
-    1. [Using `flight_number` data in addition to default list-item count](#using-flight_number-data-in-addition-to-default-list-item-count)
-    1. [Storing launch data](#storing-launch-data)
-1. [Requirements](#requirements)
-    1. [User stories](#user-stories)
-    1. [Considerations](#considerations)
-1. [`create-react-app` details](#create-react-app-details)
-    1. [Available Scripts](#available-scripts)
-        1. [`npm start`](#npm-start)
-        1. [`npm test`](#npm-test)
-        1. [`npm run build`](#npm-run-build)
-        1. [`npm run eject`](#npm-run-eject)
-    1. [Learn More](#learn-more)
-        1. [Code Splitting](#code-splitting)
-        1. [Analyzing the Bundle Size](#analyzing-the-bundle-size)
-        1. [Making a Progressive Web App](#making-a-progressive-web-app)
-        1. [Advanced Configuration](#advanced-configuration)
-        1. [Deployment](#deployment)
-        1. [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+---
 
-<!-- /MarkdownTOC -->
+- [Rationale](#rationale)
+  - [Demo caveats](#demo-caveats)
+  - [Icons](#icons)
+  - [`list` or `table`?](#list-or-table)
+  - [`img srcset` over `picture` element](#img-srcset-over-picture-element)
+  - [Using `flight_number` data in addition to default list-item count](#using-flight_number-data-in-addition-to-default-list-item-count)
+  - [Storing launch data](#storing-launch-data)
+- [Requirements](#requirements)
+  - [User stories](#user-stories)
+  - [Considerations](#considerations)
+- [`create-react-app` details](#create-react-app-details)
+  - [Available Scripts](#available-scripts)
+    - [`npm run start`](#npm-run-start)
+    - [`npm run test`](#npm-run-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run eject`](#npm-run-eject)
+  - [Learn More](#learn-more)
+    - [Code Splitting](#code-splitting)
+    - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    - [Making a Progressive Web App](#making-a-progressive-web-app)
+    - [Advanced Configuration](#advanced-configuration)
+    - [Deployment](#deployment)
+    - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
 
 ---
 
@@ -121,7 +121,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -129,7 +129,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
